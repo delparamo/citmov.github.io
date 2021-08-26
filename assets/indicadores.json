@@ -1,0 +1,191 @@
+{
+    "indicadores": [
+        {
+            "number": "1",
+            "category": "Tránsito",
+            "label": "índice motorización",
+            "name_ind": "ind_moto",
+            "description": "El índice de motorización es la relación entre la cantidad de vehículos de motor registrados en una determinada unidad espacial de referencia y en un período de tiempo (1 año), por cada 1000 habitantes.",
+            "unit": "veh/1000 hab",
+            "color": "c0c0c0",
+            "icon": "default.png",
+            "colorname": "Plateado"
+        },
+        {
+            "number": "2",
+            "category": "Tránsito",
+            "label": "Automotores privados en circulación",
+            "name_ind": "autos_priv",
+            "description": "Relación de los vehículos motorizados particulares que circulan por un punto determinado de la vía (estación), con el total de vehículos registrados en una unidad de tiempo (12 horas).",
+            "unit": "vehículos",
+            "color": "F4D03F",
+            "icon": "default.png",
+            "colorname": "Amarillo"
+        },
+        {
+            "number": "3",
+            "category": "Tránsito",
+            "label": "Viajes en medios no motorizados",
+            "name_ind": "no_moto",
+            "description": "Proporción de viajes que se realizan a través de medios no motorizados, es decir en bicicleta y a pie, en función del total de viajes realizados.",
+            "unit": "%",
+            "color": "5DADE2",
+            "icon": "default.png",
+            "colorname": "Celeste"
+        },
+        {
+            "number": "4",
+            "category": "Tránsito",
+            "label": "Tráfico promedio diario anual TPDA",
+            "name_ind": "tpda",
+            "description": "El TPDA es el volumen total de vehículos que pasan por un punto o sección de carretera en un periodo de tiempo determinado, que es mayor a un día y menor o igual a un año, dividido por el número de días comprendido en dicho período de medición.",
+            "unit": "vehículos/día",
+            "color": "5499C7",
+            "icon": "default.png",
+            "colorname": "Azul obscuro"
+        },
+        {
+            "number": "5",
+            "category": "Tránsito",
+            "label": "Accidentabilidad anual",
+            "name_ind": "accidentes",
+            "description": "Número de accidentes de tránsito ocurridos en un año para una relación de 100.000 habitantes.",
+            "unit": "accidentes/100mil hab.",
+            "color": "CB4335",
+            "icon": "default.png",
+            "colorname": "rojo - sangre"
+        },
+        {
+            "number": "6",
+            "category": "Tránsito",
+            "label": "Emisiones de CO provocado por el transporte",
+            "name_ind": "Em_Co",
+            "description": "Mide las concentraciones de CO que es uno de los componentes de los gases efecto invernadero, en un tiempo determinado.",
+            "unit": "ug/m3",
+            "color": "616A6B",
+            "icon": "default.png",
+            "colorname": "Gris"
+        },
+        {
+            "number": "7",
+            "category": "Tránsito",
+            "label": "Emisiones de NOx provocado por el transporte",
+            "name_ind": "Em_Nox",
+            "description": "Mide las concentraciones de NOx que es uno de los componentes de los gases efecto invernadero, en función del número de vehículos motorizados en circulación.",
+            "unit": "ug/m3",
+            "color": "27AE60",
+            "icon": "default.png",
+            "colorname": "Verde moco"
+        },
+        {
+            "number": "8",
+            "category": "Tránsito",
+            "label": "Emisiones de CxHy provocado por el transporte",
+            "name_ind": "Em_CxHy",
+            "description": "Mide las concentraciones de CxHy que es uno de los componentes de los gases efecto invernadero, en un tiempo determinado.",
+            "unit": "ug/m3",
+            "color": "7B241C",
+            "icon": "default.png",
+            "colorname": "rojo"
+        },
+        {
+            "number": "9",
+            "category": "Tránsito",
+            "label": "Nivel de ruido",
+            "name_ind": "ruido",
+            "description": "El nivel de ruido mide las variaciones de presión audibles en determinadas zonas, permitiendo identificar aquellas que sobrepasan el rango recomendado por instituciones internacionales o nacionales.",
+            "unit": "dB (A)",
+            "color": "B03A2E",
+            "icon": "default.png",
+            "colorname": "rojo"
+        },
+        {
+            "number": "10",
+            "category": "Tránsito",
+            "label": "Vehículos que consumen energía alternativa",
+            "name_ind": "energia",
+            "description": "Este indicador mide el porcentaje de vehículos matriculados en el cantón Cuenca que utilizan energía alternativa / renovable para su funcionamiento.",
+            "unit": "%",
+            "color": "2ECC71",
+            "icon": "default.png",
+            "colorname": "Verde"
+        },
+        {
+            "number": "29",
+            "category": "Viabilidad",
+            "label": "Vías de acceso adecuadas",
+            "name_ind": "vias_ade",
+            "description": "Este indicador mide el porcentaje de metros lineales de vías que unen la zona urbana con las áreas de estudio rurales que se encuentran en buen estado, su material de calzada es perenne; y su sección es ≥ 7,00m por ser de doble sentido de circulación y poseer un carril por cada sentido.",
+            "unit": "%",
+            "color": "A04000",
+            "icon": "default.png",
+            "colorname": "café"
+        },
+        {
+            "number": "30",
+            "category": "Viabilidad",
+            "label": "Espacio viario para peatones",
+            "name_ind": "vias_pea",
+            "description": "Este indicador mide el porcentaje de espacio viario para peatones sobre la longitud de los ejes viales que unen la zona urbana con las áreas de estudio rurales.",
+            "unit": "%",
+            "color": "BA4A00",
+            "icon": "default.png",
+            "colorname": "tomate"
+        },
+        {
+            "number": "31",
+            "category": "Viabilidad",
+            "label": "Accesibilidad del espacio de tránsito peatonal",
+            "name_ind": "vias_acc",
+            "description": "Este indicador mide el porcentaje en longitud de espacio viario para peatones con una sección mayor a 2,50m en los ejes viales que unen la zona urbana con las áreas de estudio rurales.",
+            "unit": "%",
+            "color": "286BF9",
+            "icon": "default.png",
+            "colorname": "azul claro"
+        },
+        {
+            "number": "32",
+            "category": "Viabilidad",
+            "label": "Espacio viario para bicicletas",
+            "name_ind": "vias_bici",
+            "description": "Este indicador mide el espacio viario destinado exclusivamente al desplazamiento en bicicleta en relación a la longitud total de los ejes viales que unen la zona urbana con las áreas de estudio rurales.",
+            "unit": "%",
+            "color": "FFFFFF",
+            "icon": "default.png",
+            "colorname": "Blanco"
+        },
+        {
+            "number": "33",
+            "category": "Viabilidad",
+            "label": "Nivel de accesibilidad al transporte público colectivo",
+            "name_ind": "access_pub",
+            "description": "Este indicador mide el porcentaje de población bajo cobertura de transporte público colectivo.",
+            "unit": "%",
+            "color": "C0392B",
+            "icon": "default.png",
+            "colorname": "rojo buses"
+        },
+        {
+            "number": "34",
+            "category": "Viabilidad",
+            "label": "Espacio viario para transporte público",
+            "name_ind": "vias_pub",
+            "description": "Este indicador mide el espacio viario destinado a la circulación de transporte público colectivo, en relación a la longitud total de los ejes viales que unen la zona urbana con las áreas de estudio rurales.",
+            "unit": "%",
+            "color": "FFFFFF",
+            "icon": "default.png",
+            "colorname": "Blanco"
+        },
+        {
+            "number": "35",
+            "category": "Viabilidad",
+            "label": "Proximidad de paradas de transporte público colectivo",
+            "name_ind": "prox_pub",
+            "description": "Porcentaje de población que tiene acceso a una parada de transporte público colectivo a una distancia inferior de 300m en el área urbana y 500 en el área rural (distancia máxima de caminata).",
+            "unit": "%",
+            "color": "FFD700",
+            "icon": "default.png",
+            "colorname": "Dorado"
+        }
+    ]
+}
