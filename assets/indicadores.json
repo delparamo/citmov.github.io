@@ -10,7 +10,9 @@
             "color": "#c0c0c0",
             "icon": "default.png",
             "colorname": "Plateado",
-            "maxv": "150"
+            "maxv": "150",
+            "info": "Es la relación entre la cantidad de vehículos de motor registrados en una determinada unidad espacial de referencia y en un período de tiempo (1 año), por cada 1000 habitantes. El índice de motorización es uno de los indicadores de mayor relevancia para la movilidad, a su vez este dato puede compararse con años anteriores para determinar el incremento o disminución del parque automotor y en función de ello realizar proyecciones.",
+            "data": "IM = Índice de motorización\r\nVm = Número de vehículos automotores registrados a excepción de los que utilizan energías alternativas (híbridos y eléctricos), en un período de tiempo y una unidad espacial de referencia\r\nPt = Número de habitantes que viven dentro de la unidad espacial de referencia en un período de tiempo\r\n"
         },
         {
             "number": "2",
@@ -22,7 +24,9 @@
             "color": "#F4D03F",
             "icon": "default.png",
             "colorname": "Amarillo",
-            "maxv": "1000"
+            "maxv": "1000",
+            "info": "Es la relación de los vehículos motorizados particulares que circulan por un punto determinado de la vía (estación), con el total de vehículos registrados en una unidad de tiempo (12 horas). La información provista del indicador resulta fundamental para determinar el porcentaje en el que los vehículos privados utilizan la vía y con base en este dato implementar nuevas políticas de gestión para disminuir su uso y reducir los impactos sobre el medio ambiente.",
+            "data": "VMP = Vehículos motorizados privados\r\nVp = Número de vehículos privados de pasajeros que circulan en las 12 horas de conteo\r\nM = Número de motos que circulan en las 12 horas de conteo\r\n"
         },
         {
             "number": "3",
@@ -34,7 +38,9 @@
             "color": "#5DADE2",
             "icon": "default.png",
             "colorname": "Celeste",
-            "maxv": "50"
+            "maxv": "50",
+            "info": "Es la proporción de viajes que se realizan a través de medios no motorizados, es decir en bicicleta y a pie, en función del total de viajes realizados. Desde el punto de vista de la sostenibilidad, este tipo de movilidad es relevante al contribuir con el medio ambiente debido a que permite la reducción de las emisiones de gases contaminantes, así como la reducción del consumo de combustibles fósiles.",
+            "data": "VMNM = Viajes en medios no motorizados\r\nVnm = Viajes realizados a pie y en bicicleta\r\nTv = Número total de viajes realizados según las encuestas realizadas\r\n"
         },
         {
             "number": "4",
@@ -46,7 +52,9 @@
             "color": "#5499C7",
             "icon": "default.png",
             "colorname": "Azul obscuro",
-            "maxv": "15000"
+            "maxv": "15000",
+            "info": "Es el volumen total de vehículos que pasan por un punto o sección de carretera en un periodo de tiempo determinado, que es mayor a un día y menor o igual a un año, dividido por el número de días comprendido en dicho período de medición. A través de este dato se puede conocer periódicamente la tendencia de incremento o disminución del volumen vehicular.",
+            "data": "Fh = Factor horario\r\nVhmf = Número de vehículos en hora de mayor flujo\r\nVta = Volumen de tránsito absoluto: número total de vehículos que pasan por un determinado periodo de tiempo\r\nTpd = Tráfico promedio diario\r\nTps = Tráfico promedio semanal\r\nTpa = Tráfico promedio anual\r\nTPDA = Tráfico promedio diario anual\r\n"
         },
         {
             "number": "5",
@@ -58,7 +66,9 @@
             "color": "#CB4335",
             "icon": "default.png",
             "colorname": "rojo - sangre",
-            "maxv": "150"
+            "maxv": "150",
+            "info": "Es el número de accidentes de tránsito ocurridos en un año para una relación de 100.000 habitantes. Es uno de los indicadores más conocidos a nivel internacional y con los que se compara el estado general de accidentabilidad de un país en especial con países de la misma motorización.",
+            "data": "TA= Tasa de accidentabilidad\r\nTna = Número total anual de accidentes de tránsito registrados por accidentes de tránsito\r\nPt = Población total del área de estudio.\r\n"
         },
         {
             "number": "6",
@@ -70,7 +80,10 @@
             "color": "#616A6B",
             "icon": "default.png",
             "colorname": "Gris",
-            "maxv": "200"
+            "maxv": "200",
+            "info": "Este indicador mide las concentraciones de CO que es uno de los componentes de los gases efecto invernadero, en un tiempo determinado. Es importante el cálculo de este indicador pues permitirá conocer si las emisiones actuales de CO sobrepasan los límites establecidos, además de ser la base para análisis comparativos posteriores. Las mediciones de este indicador ser realizaron con el apoyo de la Facultad de Ciencias Químicas de la Universidad de Cuenca (Ing. Xavier Capa).",
+            "formula": "Ecuación Básica de Gauss (Sin Reflexión):",
+            "data": "x, y, z = Distancias axial, transversal y vertical, relativas a la dirección hacia donde sopla el viento\r\nQ = Tasa de emisión del contaminante.\r\nu = Velocidad de viento\r\nH = Altura efectiva de la chimenea\r\n= Desviación estándar de la distribución de Gauss\r\nEl Programa Disper 5.1 aplica el modelo de distribución de gases del ISCT3 de la EPA, el cual tiene como principio fundamental el modelo de distribución de gauss.\r\n"
         },
         {
             "number": "7",
@@ -82,7 +95,10 @@
             "color": "#27AE60",
             "icon": "default.png",
             "colorname": "Verde moco",
-            "maxv": "50"
+            "maxv": "50",
+            "info": "Este indicador mide las concentraciones de NOx que es uno de los componentes de los gases efecto invernadero, en función del número de vehículos motorizados en circulación. Estos óxidos son perjudiciales para los seres vivos, además contribuyen a la lluvia ácida y destruyen la capa de Ozono. Por ello su emisión se encuentra reglamentada en varias ciudades del mundo. Por lo tanto, es importante conocer las emisiones de NOx causadas por los vehículos motorizados, debido a que permitirá conocer la contaminación actual y a la vez servir de base para futuras mediciones. . Las mediciones de este indicador ser realizaron con el apoyo de la Facultad de Ciencias Químicas de la Universidad de Cuenca (Ing. Xavier Capa).",
+            "formula": "Ecuación Básica de Gauss (Sin Reflexión):",
+            "data": "x, y, z = Distancias axial, transversal y vertical, relativas a la dirección hacia donde sopla el viento\r\nQ = Tasa de emisión del contaminante\r\nu = Velocidad de viento\r\nH = Altura efectiva de la chimenea\r\n= Desviación estándar de la distribución de Gauss\r\n"
         },
         {
             "number": "8",
@@ -94,7 +110,10 @@
             "color": "#7B241C",
             "icon": "default.png",
             "colorname": "rojo",
-            "maxv": "1"
+            "maxv": "1",
+            "info": "Este indicador mide las concentraciones de CxHy que es uno de los componentes de los gases efecto invernadero, en un tiempo determinado. En general los hidrocarburos presentan una baja toxicidad, el problema principal que tiene, es la reactividad fotoquímica en presencia de la luz solar para dar compuestos oxidados. . Las mediciones de este indicador ser realizaron con el apoyo de la Facultad de Ciencias Químicas de la Universidad de Cuenca (Ing. Xavier Capa).",
+            "formula": "Ecuación Básica de Gauss (Sin Reflexión):",
+            "data": "x, y, z = Distancias axial, transversal y vertical, relativas a la dirección hacia donde sopla el viento\r\nQ = Tasa de emisión del contaminante\r\nu = Velocidad de viento\r\nH = Altura efectiva de la chimenea\r\n= Desviación estándar de la distribución de Gauss\r\n"
         },
         {
             "number": "9",
@@ -106,7 +125,9 @@
             "color": "#B03A2E",
             "icon": "default.png",
             "colorname": "rojo",
-            "maxv": "100"
+            "maxv": "100",
+            "info": "El nivel de ruido mide las variaciones de presión audibles en determinadas zonas, permitiendo identificar aquellas que sobrepasan el rango recomendado por instituciones internacionales o nacionales.",
+            "data": "Leq, tp (5) = Nivel de presión sonora equivalente total promedio. El nivel monitoreado es ponderado bajo la curva A, respuesta audible, por lo que los niveles indicadores corresponden a dB(A), medido cada 5 segundos\r\nLeq, rp = Nivel de presión sonora equivalente residual promedio. El nivel monitoreado es ponderado bajo la curva A, respuesta audible, por lo que los niveles indicadores corresponden a dB(A)             \r\nn = Número de muestras\r\nTi = Fracción de tiempo total\r\nNPSi = Nivel de ruido en cada intervalo de tiempo\r\nK = Factor de Corrección por ruido residual\r\n∆L = Leq,tp-Leq,rp \r\n"
         },
         {
             "number": "10",
@@ -118,7 +139,9 @@
             "color": "#2ECC71",
             "icon": "default.png",
             "colorname": "Verde",
-            "maxv": "1"
+            "maxv": "1",
+            "info": "Este indicador mide el porcentaje de vehículos matriculados en el cantón Cuenca que utilizan energía alternativa / renovable para su funcionamiento.",
+            "data": "PVEAR = Porcentaje de vehículos matriculados en el cantón Cuenca que utilizan energía alternativa / renovable\r\nNvear = Número de vehículos matriculados en el cantón Cuenca que utilizan energía alternativa / renovable\r\nNv = Número de vehículos matriculados en el cantón Cuenca\r\n"
         },
         {
             "number": "29",
@@ -130,7 +153,9 @@
             "color": "#A04000",
             "icon": "default.png",
             "colorname": "café",
-            "maxv": "100"
+            "maxv": "100",
+            "info": "Este indicador mide el porcentaje de metros lineales de vías que unen la zona urbana con las áreas de estudio rurales que se encuentran en buen estado, su material de calzada es perenne; y su sección es ≥ 7,00m por ser de doble sentido de circulación y poseer un carril por cada sentido.",
+            "data": "PVA = Porcentaje de vías adecuadas\r\nLva = Longitud de vías adecuadas (estado bueno y material de asfalto o concreto)\r\nLtv = Longitud total de vías que unen el área urbana con las áreas de estudio\r\n"
         },
         {
             "number": "30",
@@ -142,7 +167,9 @@
             "color": "#BA4A00",
             "icon": "default.png",
             "colorname": "tomate",
-            "maxv": "60"
+            "maxv": "60",
+            "info": "Este indicador mide el porcentaje de espacio viario para peatones sobre la longitud de los ejes viales que unen la zona urbana con las áreas de estudio rurales. Las facilidades peatonales deben localizarse en zonas en las cuales exista o se pueda proveer de aceras adecuadas, donde puedan esperar los peatones que deseen cruzar.",
+            "data": "VPDP = Viario público destinado al peatón\r\nLvpp = Longitud viario público peatonal (longitud de acera derecha más longitud de acera izquierda)\r\nLvpt = Longitud viario público total multiplicado por dos\r\n"
         },
         {
             "number": "31",
@@ -154,7 +181,9 @@
             "color": "#286BF9",
             "icon": "default.png",
             "colorname": "azul claro",
-            "maxv": "60"
+            "maxv": "60",
+            "info": "Este indicador mide el porcentaje en longitud de espacio viario para peatones con una sección mayor a 2,50m en los ejes viales que unen la zona urbana con las áreas de estudio rurales. En áreas urbanas se consideran totalmente accesibles los tramos que poseen un mínimo de ancho en ambas aceras (más de 2,50m); ancho de acera mayor de 2,00m para permitir el cruce de dos vehículos de personas incapacitadas o de coches para niños, más anchura suplementaria de 0,50m para considerar el espacio ocupado para la señalización de tráfico y el mobiliario.",
+            "data": "PETPA = Porcentaje de espacio de tránsito peatonal accesible.\r\nLetpa = Longitud del espacio de tránsito peatonal accesible ≥ 2,50m\r\nLtetp = Longitud total del espacio de tránsito peatonal (de acera derecha más acera izquierda)\r\n"
         },
         {
             "number": "32",
@@ -166,7 +195,9 @@
             "color": "#FFFFFF",
             "icon": "default.png",
             "colorname": "Blanco",
-            "maxv": "1"
+            "maxv": "1",
+            "info": "Este indicador mide el espacio viario destinado exclusivamente al desplazamiento en bicicleta en relación a la longitud total de los ejes viales que unen la zona urbana con las áreas de estudio rurales. La bicicleta se convierte en un verdadero modo de transporte si cuenta con una red propia interconectada en todo el territorio y segregada de los otros modos de transporte de superficie.",
+            "data": "VPDB = Viario público destinado a bicicletas\r\nLvpb = Longitud de viario público para bicicletas\r\nLvpt = Longitud viario público total\r\n"
         },
         {
             "number": "33",
@@ -178,7 +209,9 @@
             "color": "#C0392B",
             "icon": "default.png",
             "colorname": "rojo buses",
-            "maxv": "100"
+            "maxv": "100",
+            "info": "Este indicador mide el porcentaje de población bajo cobertura de transporte público colectivo. Se considera que existe una buena accesibilidad cuando desde cualquier parte del territorio se puede acceder en 10 minutos (500 m) al viario público por el que circula el transporte público rural; o en 5 minutos (250 m) al viario público por el que circula el transporte público urbano.",
+            "data": "PPATP = Porcentaje de población con acceso a transporte público\r\nPctp = Población bajo cobertura de transporte público\r\nTp = Total de población\r\n"
         },
         {
             "number": "34",
@@ -190,7 +223,9 @@
             "color": "#FFFFFF",
             "icon": "default.png",
             "colorname": "Blanco",
-            "maxv": "1"
+            "maxv": "1",
+            "info": "Este indicador mide el espacio viario destinado a la circulación de transporte público colectivo, en relación a la longitud total de los ejes viales que unen la zona urbana con las áreas de estudio rurales.",
+            "data": "VTP = Viario para transporte público\r\nLcb = Longitud carril bus\r\nLtv = Longitud total de vías\r\n"
         },
         {
             "number": "35",
@@ -202,7 +237,9 @@
             "color": "#FFD700",
             "icon": "default.png",
             "colorname": "Dorado",
-            "maxv": "50"
+            "maxv": "50",
+            "info": "Es el porcentaje de población que tiene acceso a una parada de transporte público colectivo a una distancia inferior de 300m en el área urbana y 500 en el área rural (distancia máxima de caminata).",
+            "data": "PPTPC = Proximidad de paradas de transporte público colectivo\r\nPa = Población  abastecida por las paradas de buses\r\nPt = Población total de la parroquia\r\n"
         },
         {
             "number": "11",
@@ -214,7 +251,9 @@
             "color": "#E67E22",
             "icon": "default.png",
             "colorname": "tomate",
-            "maxv": "100"
+            "maxv": "100",
+            "info": "Este indicador mide el porcentaje de viajes que necesitan más de un medio de transporte para llegar al área urbana del Cantón. Resulta fundamental su cálculo para identificar el porcentaje de población que necesitan realizar transbordos (entendido como transbordo al cambio de medio de transporte) para llegar a sus destinos y en función de ello plantear soluciones que permitan mejorar la calidad de vida de la población en cuanto a la movilidad.",
+            "data": "TR = Porcentaje de viajes que necesitan realizar transbordos para llegar a su destino (ciudad de Cuenca)\r\nVt = Número de viajes que realizan transbordos (viajes que se ejecutan con más de un medio)\r\nTv = Total de viajes realizados\r\n"
         },
         {
             "number": "12",
@@ -226,7 +265,9 @@
             "color": "#707B7C",
             "icon": "default.png",
             "colorname": "gris",
-            "maxv": "60"
+            "maxv": "60",
+            "info": "Es el rango medio de tiempo que las personas tardan en trasladarse desde su vivienda (origen) al lugar de trabajo (destino) a través de transporte público (transporte público colectivo, taxis, camionetas de alquiler). Con este indicador se conoce la relación que guarda las zonas de residencia con los destinos. Esta relación se conoce como la localización y denota la conjunción de tres condiciones:\r\n-  La cercanía de las zonas concentradoras de actividad económica y de equipamientos.\r\n-  El acceso rápido a vialidades principales.\r\n-  La disponibilidad de modos de transporte.\r\n",
+            "data": "TMVT = Tiempo medio de viajes por motivo trabajo\r\nTvt = Tiempo de viajes empleado en transporte público por motivo trabajo\r\nPt = Población que se moviliza por razones de trabajo en transporte público\r\n"
         },
         {
             "number": "13",
@@ -238,7 +279,9 @@
             "color": "#2E86C1",
             "icon": "default.png",
             "colorname": "celeste",
-            "maxv": "60"
+            "maxv": "60",
+            "info": "Es el tiempo promedio en minutos requerido para el traslado del lugar de residencia hacia el equipamiento educativo (escuela, colegio, universidad, etc.) mediante el uso del transporte público (buses, taxis, camionetas de alquiler).",
+            "data": "TMVE = Tiempo medio de viajes por motivo estudio\r\nTve = Tiempo de viaje empleado en transporte público por motivo estudio\r\nPt = Población que se moviliza por razones de estudio en transporte público\r\n"
         },
         {
             "number": "14",
@@ -250,7 +293,9 @@
             "color": "#F1C40F",
             "icon": "default.png",
             "colorname": "mostaza",
-            "maxv": "60"
+            "maxv": "60",
+            "info": "Es el rango medio de tiempo en que las personas tardan en trasladarse desde su vivienda (origen) a la ciudad por motivo de estudio y trabajo mediante el uso del transporte público. El incremento desmesurado del parque automotor y el estacionamiento en las vías provoca que la capacidad de la estructura vial rebase sus límites provocando disminución de la velocidad e inclusive congestionamiento vehicular que inciden directamente en el tiempo de viaje.",
+            "data": "TMVU = Tiempo medio de viajes cotidianos hacia el área urbana\r\nTvu = Sumatoria de los tiempos de viajes que se realizan hacia la ciudad de Cuenca por motivo estudio y trabajo en transporte público\r\nPt = Población que se moviliza hacia el área urbana (ciudad de Cuenca) por motivos cotidianos en transporte público\r\n"
         },
         {
             "number": "15",
@@ -262,7 +307,9 @@
             "color": "#F1C40F",
             "icon": "default.png",
             "colorname": "dorado",
-            "maxv": "1"
+            "maxv": "1",
+            "info": "Este indicador mide el coste promedio del usuario del transporte público que paga tarifa completa, por movilizarse desde las áreas de estudio localizadas en el sector rural, por motivo de estudio. Considerando que el transporte es parte de la canasta familiar básica, resulta un tema importante de ser considerado, puesto que a pesar de que las tarifas de transporte público han sido fijadas desde hace algunos años atrás, se ha detectado que los habitantes de las zonas periurbanas y rurales gastan un valor mayor a los residentes de la zona urbana.",
+            "data": "CPUTPE = Costes promedio del usuario de transporte público por motivo de estudio y que paga tarifa completa\r\nTctpe = Total del coste del usuario de transporte público que paga tarifa completa por motivo de estudio\r\nTutpe = Total de usuarios de transporte púbico consultados, que pagan tarifa completa y se movilizan por motivo de estudio\r\n"
         },
         {
             "number": "16",
@@ -274,7 +321,9 @@
             "color": "#F39C12",
             "icon": "default.png",
             "colorname": "amarillo-tomate",
-            "maxv": "1"
+            "maxv": "1",
+            "info": "Este indicador mide el coste promedio del usuario del transporte público que paga tarifa diferenciada, por movilizarse desde las áreas de estudio localizadas en el sector rural, por motivo de estudio.",
+            "data": "CPUTPE = Costes promedio del usuario de transporte público por motivo de estudio y que paga tarifa diferenciada\r\nTctpe = Total del coste del usuario de transporte público que paga tarifa diferenciada por motivo de estudio\r\nTutpe = Total de usuarios de transporte púbico consultados, que pagan tarifa diferenciada y se movilizan por motivo de estudio\r\n"
         },
         {
             "number": "17",
@@ -286,7 +335,9 @@
             "color": "#A6ACAF",
             "icon": "default.png",
             "colorname": "plata",
-            "maxv": "1"
+            "maxv": "1",
+            "info": "Este indicador mide el coste promedio del usuario del transporte público, por movilizarse desde las áreas de estudio localizadas en el sector rural, por motivo de trabajo.",
+            "data": "CPUTPT = Costes promedio del usuario de transporte público por motivo de trabajo\r\nTctpt = Total del coste del usuario de transporte público por motivo de trabajo\r\nTutpt = Total de usuarios de transporte púbico consultados, que se movilizan por motivo de trabajo\r\n"
         },
         {
             "number": "18",
@@ -298,7 +349,9 @@
             "color": "#7B1F68",
             "icon": "default.png",
             "colorname": "morado",
-            "maxv": "100"
+            "maxv": "100",
+            "info": "Este indicador mide el porcentaje de usuarios de transporte público que paga más de una tarifa completa por movilizarse desde las áreas de estudio localizadas en el sector rural por motivo de estudio.",
+            "data": "PUTPM = Porcentaje de usuarios de transporte público que paga más de una tarifa completa por motivo de estudio\r\nTctpm = Total de usuarios de transporte público que paga más de una tarifa completa por motivo de estudio\r\nTutpe = Total de usuarios de transporte público consultados que se movilizan por motivo de estudio y pagan tarifa completa\r\n"
         },
         {
             "number": "19",
@@ -310,7 +363,9 @@
             "color": "#DA6112",
             "icon": "default.png",
             "colorname": "tomatillo",
-            "maxv": "100"
+            "maxv": "100",
+            "info": "Este indicador mide el porcentaje de usuarios de transporte público que paga más de una tarifa diferenciada por movilizarse desde las áreas de estudio localizadas en el sector rural por motivo de estudio.",
+            "data": "PUTPM = Porcentaje de usuarios de transporte público que paga más de una tarifa diferenciada por motivo de estudio\r\nTctpm = Total de usuarios de transporte público que paga más de una tarifa diferenciada por motivo de estudio\r\nTutpe = Total de usuarios de transporte público consultados que se movilizan por motivo de estudio y pagan tarifa diferenciada\r\n"
         },
         {
             "number": "20",
@@ -322,7 +377,9 @@
             "color": "#A01A5D",
             "icon": "default.png",
             "colorname": "fucsia",
-            "maxv": "100"
+            "maxv": "100",
+            "info": "Este indicador mide el porcentaje de usuarios de transporte público que paga más de una tarifa completa por movilizarse desde las áreas de estudio localizadas en el sector rural por motivo de trabajo.",
+            "data": "PUTPM = Porcentaje de usuarios de transporte público que paga más de una tarifa completa por motivo de trabajo\r\nTctpm = Total de usuarios de transporte público que paga más de una tarifa completa por motivo de trabajo\r\nTutpt = Total de usuarios de transporte público consultados que se movilizan por motivo de trabajo y pagan tarifa completa\r\n"
         },
         {
             "number": "21",
@@ -334,7 +391,9 @@
             "color": "#DBC118",
             "icon": "default.png",
             "colorname": "amarillo",
-            "maxv": "20"
+            "maxv": "20",
+            "info": "Este indicador mide el porcentaje del gasto mensual que una familia realiza en transporte público, en función de la canasta familiar básica. Si bien las tarifas de transporte público han sido fijadas desde hace algunos años atrás se presumen que para movilizarse desde las zonas rurales del cantón se requiere un mayor presupuesto debido a que deben realizar más de un transbordo para llegar a su lugar de destino.",
+            "data": "PCFBGTP = Porcentaje de la canasta familiar básica que gasta en transporte público\r\nGmftp = Gasto mensual de una familia en transporte público\r\nCfb = Canasta familiar básica\r\n"
         },
         {
             "number": "22",
@@ -346,7 +405,9 @@
             "color": "#219439",
             "icon": "default.png",
             "colorname": "verde",
-            "maxv": "100"
+            "maxv": "100",
+            "info": "Es la relación entre las comunidades que se encuentran servidos por una línea de transporte público colectivo y el total existente. Este indicador es importante debido a que permite identificar las comunidades que de una u otra forma se encuentran servidos por el transporte público colectivo. Sin embargo, el porcentaje que no se encuentre servido debe ser analizado para que se puedan dar soluciones alternativas que permitan mejorar la conectividad y accesibilidad.",
+            "data": "PCATPC = Porcentaje de comunidades con acceso al transporte público colectivo\r\nTc = Total de comunidades de la parroquia\r\nCastpc = Comunidades con servicio de transporte público colectivo\r\n"
         },
         {
             "number": "23",
@@ -358,7 +419,9 @@
             "color": "#753910",
             "icon": "default.png",
             "colorname": "café",
-            "maxv": "100"
+            "maxv": "100",
+            "info": "Es la relación entre el número de viajes realizados en transporte público colectivo y el total generado. Conocer el grado de utilización del transporte público resulta fundamental, ya que permite determinar la incidencia que este medio tiene en el área de estudio y en base a esto proponer proyectos que mejoren su servicio e incentiven su uso.",
+            "data": "UTPC = Uso del transporte público colectivo\r\nVtpc = Viajes en transporte público colectivo\r\nTv = Número total de viajes realizados según las encuestas realizadas\r\n"
         },
         {
             "number": "24",
@@ -370,7 +433,8 @@
             "color": "#5025A6",
             "icon": "default.png",
             "colorname": "morado",
-            "maxv": "20"
+            "maxv": "20",
+            "info": "Es la relación que existe entre la capacidad del transporte público colectivo (número de asientos y unidades de transporte) y el total de la población de un territorio, en un período de tiempo determinado. Es necesario fomentar la utilización del transporte público colectivo como medio principal de movilización, sin embargo, previo a ello es necesario conocer el porcentaje de población que puede estar servido por las unidades disponibles, para así determinar si la oferta puede cubrir la demanda."
         },
         {
             "number": "25",
@@ -382,7 +446,9 @@
             "color": "#D5670B",
             "icon": "default.png",
             "colorname": "tomate",
-            "maxv": "25"
+            "maxv": "25",
+            "info": "Es la relación que existe entre la distancia recorrida mediante el transporte público colectivo y el tiempo utilizado para ejecutarlo. Es importante conocer la velocidad promedio en la que circula el transporte público colectivo con el fin de determinar si la misma se encuentra dentro o fuera del rango establecido como óptimo. Si la velocidad es muy baja, se deben pensar en proyectos que permitan incrementar la misma, con el fin de disminuir tiempos de viaje y de esta manera incentivar el uso de este sistema sostenible de movilización.",
+            "data": "VPTP = Velocidad promedio del transporte público\r\nDr = Distancia total recorrida\r\nTt = Tiempo total empleado para el desplazamiento\r\n"
         },
         {
             "number": "26",
@@ -394,7 +460,9 @@
             "color": "#9B15B5",
             "icon": "default.png",
             "colorname": "moradin",
-            "maxv": "15"
+            "maxv": "15",
+            "info": "Es el tiempo medio de paso de las unidades de transporte público colectivo. En el caso de que el área de estudio este servida por más de una línea de bus, la frecuencia estará dada por el promedio del tiempo de cada una de ellas. La frecuencia de paso cumple un rol fundamental para el incentivo del transporte público colectivo, debido a que mientras menor sea el tiempo de espera para acceder a las unidades de transporte mayor será la satisfacción de los usuarios de este servicio.",
+            "data": "FTPC = Frecuencia del transporte público colectivo\r\nFL1; FL2; FLn = Frecuencia de cada línea de transporte público que sirva al área de estudio\r\nTl = Total de líneas que abastecen al área de estudio\r\n"
         },
         {
             "number": "27",
@@ -406,7 +474,9 @@
             "color": "#D5940B",
             "icon": "default.png",
             "colorname": "fierro",
-            "maxv": "15"
+            "maxv": "15",
+            "info": "Este indicador mide la edad promedio del parque automotor del transporte público colectivo rural. La edad promedio del parque automotor del transporte público es una medida de la efectividad y calidad de prestación del servicio de transporte público, pues refleja en medida si las empresas y la administración controlan que el parque automotor no sobrepase la edad máxima recomendada como viable para operación (20 años).",
+            "data": "PETP = Promedio de la edad del parque automotor del transporte público colectivo rural\r\nSeutp = Sumatoria de la edad de las unidades que prestan servicio de transporte público colectivo para zonas rurales\r\nTutp = Total de unidades que prestan servicio de transporte público colectivo para zonas rurales\r\n"
         },
         {
             "number": "28",
@@ -418,7 +488,9 @@
             "color": "#EFEB0B",
             "icon": "default.png",
             "colorname": "amarillo",
-            "maxv": "100"
+            "maxv": "100",
+            "info": "Este indicador mide la satisfacción de los pasajeros sobre el servicio prestado por el transporte público colectivo. Este indicador constituye una base sólida para que las autoridades y operadores ajusten sus políticas, regulaciones y programas de inversión con el fin de mejorar la calidad del servicio brindado a los usuarios.",
+            "data": "CPTPC = Calidad percibida del transporte público colectivo\r\nEu = Percepción del estado de la unidad (% estado bueno)\r\nTu = Percepción del trato al usuario (% trato bueno)\r\nS = Percepción de seguridad (% si es seguro)\r\nAc = Percepción sobre la actitud del conductor (% de actitud bueno)\r\nCh = Cumplimiento del horario (% de población que dijo que sí cumple)\r\nTv = Total de variables analizadas (en este caso 5)\r\n"
         }
     ]
 }
