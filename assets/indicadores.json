@@ -27,7 +27,7 @@
             "color": "#F4D03F",
             "icon": "default.png",
             "colorname": "Amarillo",
-            "maxv": "1000",
+            "maxv": "10000",
             "info": "Es la relación de los vehículos motorizados particulares que circulan por un punto determinado de la vía (estación), con el total de vehículos registrados en una unidad de tiempo (12 horas). La información provista del indicador resulta fundamental para determinar el porcentaje en el que los vehículos privados utilizan la vía y con base en este dato implementar nuevas políticas de gestión para disminuir su uso y reducir los impactos sobre el medio ambiente.",
             "formula": "image004",
             "data": "VMP = Vehículos motorizados privados\r\nVp = Número de vehículos privados de pasajeros que circulan en las 12 horas de conteo\r\nM = Número de motos que circulan en las 12 horas de conteo\r\n",
@@ -890,7 +890,7 @@
         {
             "number": "57",
             "category": "Intervenciones",
-            "label": "Proyectos Sep. 2020 Feb 2021",
+            "label": "Proyectos Sep 2020 - Feb 2021",
             "name_ind": "1",
             "color": "#8F1F7E",
             "type": "point",
@@ -899,7 +899,7 @@
         {
             "number": "58",
             "category": "Intervenciones",
-            "label": "Proyectos Mar. - Ago. 2020",
+            "label": "Proyectos Mar - Ago 2020",
             "name_ind": "2",
             "color": "#DBC45C",
             "type": "point",
@@ -908,7 +908,7 @@
         {
             "number": "59",
             "category": "Intervenciones",
-            "label": "Proyectos Sep. 2019 - Feb. 2020",
+            "label": "Proyectos Sep 2019 - Feb 2020",
             "name_ind": "3",
             "color": "#DB47C6",
             "type": "point",
@@ -917,7 +917,7 @@
         {
             "number": "60",
             "category": "Intervenciones",
-            "label": "Proyectos Mar. - Ago. 2019",
+            "label": "Proyectos Mar - Ago 2019",
             "name_ind": "4",
             "color": "#30DBD0",
             "type": "point",
@@ -926,7 +926,7 @@
         {
             "number": "61",
             "category": "Intervenciones",
-            "label": "Proyectos Sep. 2018 - Feb. 2019",
+            "label": "Proyectos Sep 2018 - Feb 2019",
             "name_ind": "5",
             "color": "#278F88",
             "type": "point",
@@ -935,7 +935,7 @@
         {
             "number": "62",
             "category": "Intervenciones",
-            "label": "Proyectos Mar. - Ago. 2018",
+            "label": "Proyectos Mar - Ago 2018",
             "name_ind": "6",
             "color": "#8F2545",
             "type": "point",
@@ -944,7 +944,7 @@
         {
             "number": "63",
             "category": "Intervenciones",
-            "label": "Proyectos Sep. 2017 - Feb. 2018",
+            "label": "Proyectos Sep 2017 - Feb 2018",
             "name_ind": "7",
             "color": "#DBD365",
             "type": "point",
